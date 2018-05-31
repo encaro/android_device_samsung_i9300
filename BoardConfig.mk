@@ -19,6 +19,9 @@
 
 -include device/samsung/smdk4412-common/BoardCommonConfig.mk
 
+# Bionic
+MALLOC_IMPL := dlmalloc
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
 
